@@ -19,7 +19,11 @@ package org.apache.seata.discovery.loadbalance;
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
-import java.util.*;
+import java.util.HashSet;
+import java.util.Set;
+import java.util.List;
+import java.util.SortedMap;
+import java.util.TreeMap;
 
 import org.apache.seata.common.loader.LoadLevel;
 import org.apache.seata.config.ConfigurationFactory;
